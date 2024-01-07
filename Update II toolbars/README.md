@@ -1,1 +1,1 @@
-Place into project folder and run upd.bat
+Place into a II project folder and run upd.bat
