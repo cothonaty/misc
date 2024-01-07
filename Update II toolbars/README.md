@@ -1,0 +1,1 @@
+Place into project folder and run upd.bat
