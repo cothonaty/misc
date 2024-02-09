@@ -5,29 +5,34 @@ $workspaceFile = Join-Path -Path $ideaPath -ChildPath "workspace.xml"
 $newComponentContent = @"
   <component name=`"ToolWindowManager`">
     <layoutV2>
-      <window_info id=`"Bookmarks`" show_stripe_button=`"false`" side_tool=`"true`" weight=`"0.32975262`" />
-      <window_info id=`"Learn`" show_stripe_button=`"false`" weight=`"0.32975262`" />
-      <window_info anchor=`"bottom`" id=`"Problems View`" order=`"0`" side_tool=`"true`" weight=`"0.3294903`" />
-      <window_info anchor=`"bottom`" id=`"Notifications`" order=`"1`" side_tool=`"true`" weight=`"0.3294903`" />
-      <window_info anchor=`"bottom`" id=`"Find`" order=`"2`" side_tool=`"true`" weight=`"0.3294903`" />
-      <window_info anchor=`"bottom`" id=`"Build`" order=`"3`" side_tool=`"true`" weight=`"0.3294903`" />
-      <window_info anchor=`"bottom`" id=`"Version Control`" order=`"4`" side_tool=`"true`" weight=`"0.3294903`" />
-      <window_info anchor=`"bottom`" id=`"Database Changes`" order=`"5`" side_tool=`"true`" weight=`"0.3294903`" />
-      <window_info anchor=`"bottom`" id=`"Terminal`" order=`"6`" side_tool=`"true`" weight=`"0.3294903`" />
-      <window_info anchor=`"bottom`" id=`"Problems`" order=`"7`" />
-      <window_info anchor=`"bottom`" id=`"Services`" order=`"8`" sideWeight=`"0.49932614`" side_tool=`"true`" weight=`"0.3294903`" />
-      <window_info anchor=`"bottom`" id=`"Run`" order=`"9`" show_stripe_button=`"false`" side_tool=`"true`" weight=`"0.3294903`" />
-      <window_info anchor=`"right`" content_ui=`"combo`" id=`"Project`" order=`"0`" visible=`"true`" weight=`"0.23311688`" />
-      <window_info anchor=`"right`" id=`"Database`" order=`"1`" sideWeight=`"0.5006739`" weight=`"0.23339844`" />
-      <window_info anchor=`"right`" id=`"Structure`" order=`"2`" weight=`"0.32975262`" />
-      <window_info anchor=`"right`" id=`"Maven`" order=`"3`" weight=`"0.25`" />
-																	   
-      <window_info anchor=`"right`" id=`"Gradle`" order=`"4`" weight=`"0.25`" />
-      <window_info anchor=`"right`" id=`"Coverage`" order=`"5`" show_stripe_button=`"false`" side_tool=`"true`" weight=`"0.17936197`" />
-      <window_info anchor=`"right`" id=`"Commit`" order=`"6`" weight=`"0.23339844`" />
-      <window_info anchor=`"right`" id=`"Pull Requests`" order=`"7`" weight=`"0.32975262`" />
-      <window_info anchor=`"right`" id=`"AIAssistant`" order=`"8`" weight=`"0.25`" />
-      <unified_weights bottom=`"0.3294903`" left=`"0.32975262`" right=`"0.23311688`" />
+      <window_info anchor=`"bottom`" id=`"Problems View`" order=`"0`" side_tool=`"true`" weight=`"0.32548076`" />
+      <window_info anchor=`"bottom`" id=`"Notifications`" order=`"2`" side_tool=`"true`" weight=`"0.3294903`" />
+      <window_info anchor=`"bottom`" id=`"Find`" order=`"3`" side_tool=`"true`" weight=`"0.32548076`" />
+      <window_info anchor=`"bottom`" id=`"Profiler`" order=`"8`" sideWeight=`"0.5002651`" side_tool=`"true`" weight=`"0.3252604`" />
+      <window_info anchor=`"bottom`" id=`"Version Control`" order=`"9`" side_tool=`"true`" weight=`"0.32548076`" />
+      <window_info anchor=`"bottom`" id=`"Problems`" order=`"14`" />
+      <window_info anchor=`"bottom`" id=`"Terminal`" order=`"16`" sideWeight=`"0.3858189`" side_tool=`"true`" weight=`"0.32548076`" />
+      <window_info anchor=`"bottom`" id=`"Build`" order=`"17`" side_tool=`"true`" weight=`"0.32548076`" />
+      <window_info anchor=`"bottom`" id=`"Database Changes`" order=`"18`" side_tool=`"true`" weight=`"0.32548076`" />
+      <window_info anchor=`"bottom`" id=`"Services`" order=`"19`" sideWeight=`"0.6141811`" side_tool=`"true`" weight=`"0.32548076`" />
+      <window_info anchor=`"bottom`" id=`"Debug`" order=`"20`" sideWeight=`"0.49973488`" side_tool=`"true`" weight=`"0.32548076`" />
+      <window_info anchor=`"bottom`" id=`"Run`" order=`"21`" side_tool=`"true`" weight=`"0.32548076`" />
+      <window_info anchor=`"right`" id=`"documentation.v2`" side_tool=`"true`" weight=`"0.32975262`" />
+      <window_info anchor=`"right`" content_ui=`"combo`" id=`"Project`" order=`"0`" sideWeight=`"0.5005219`" weight=`"0.3252604`" />
+      <window_info anchor=`"right`" id=`"Database`" order=`"2`" sideWeight=`"0.49947807`" weight=`"0.3252604`" />
+      <window_info anchor=`"right`" id=`"Structure`" order=`"3`" sideWeight=`"0.50080645`" weight=`"0.3252604`" />
+      <window_info anchor=`"right`" id=`"Hierarchy`" order=`"5`" weight=`"0.3252604`" />
+      <window_info anchor=`"right`" id=`"Endpoints`" order=`"6`" weight=`"0.3252604`" />
+      <window_info anchor=`"right`" id=`"Gradle`" order=`"8`" weight=`"0.25`" />
+      <window_info anchor=`"right`" id=`"Coverage`" order=`"9`" show_stripe_button=`"false`" side_tool=`"true`" weight=`"0.17936197`" />
+      <window_info anchor=`"right`" id=`"Bookmarks`" order=`"12`" weight=`"0.32975262`" />
+      <window_info anchor=`"right`" id=`"Maven`" order=`"15`" sideWeight=`"0.49947807`" side_tool=`"true`" weight=`"0.3252604`" />
+      <window_info anchor=`"right`" id=`"Commit`" order=`"20`" sideWeight=`"0.49947807`" side_tool=`"true`" weight=`"0.3252604`" />
+      <window_info anchor=`"right`" id=`"Pull Requests`" order=`"21`" side_tool=`"true`" weight=`"0.3252604`" />
+      <window_info anchor=`"right`" id=`"TODO`" order=`"22`" sideWeight=`"0.5002651`" side_tool=`"true`" weight=`"0.3252604`" />
+      <window_info anchor=`"right`" id=`"AIAssistant`" order=`"27`" side_tool=`"true`" weight=`"0.3252604`" />
+      <window_info anchor=`"right`" id=`"Learn`" order=`"28`" side_tool=`"true`" weight=`"0.3252604`" />
+      <unified_weights bottom=`"0.32548076`" left=`"0.32994792`" right=`"0.3252604`" />
     </layoutV2>
     <layout>
       <window_info id=`"Commit`" weight=`"0.32975262`" />
@@ -58,25 +63,31 @@ $newComponentContent = @"
       <unified_weights bottom=`"0.18385923`" left=`"0.3076172`" right=`"0.32975262`" />
     </layout>
     <recentWindows>
-      <value>Project</value>
-      <value>Database</value>
-      <value>Terminal</value>
-      <value>Commit</value>
-      <value>Version Control</value>
-      <value>Coverage</value>
-      <value>Run</value>
-      <value>Notifications</value>
-      <value>Find</value>
       <value>Problems View</value>
-      <value>Bookmarks</value>
-      <value>Learn</value>
-      <value>Database Changes</value>
-      <value>Services</value>
+      <value>Version Control</value>
+      <value>Find</value>
       <value>Build</value>
-      <value>Structure</value>
+      <value>Database Changes</value>
+      <value>Debug</value>
+      <value>Services</value>
+      <value>Terminal</value>
+      <value>Run</value>
+      <value>TODO</value>
+      <value>Maven</value>
+      <value>Project</value>
       <value>Pull Requests</value>
       <value>Endpoints</value>
-      <value>Debug</value>
+      <value>Hierarchy</value>
+      <value>Commit</value>
+      <value>AIAssistant</value>
+      <value>Structure</value>
+      <value>Database</value>
+      <value>Learn</value>
+      <value>Profiler</value>
+      <value>Bookmarks</value>
+      <value>Notifications</value>
+      <value>documentation.v2</value>
+      <value>Coverage</value>
       <value>Messages</value>
     </recentWindows>
     <moreButton side=`"right`" />
